@@ -65,7 +65,7 @@ export const fetchUsers =
     } catch (error) {
       dispatch({
         type: 'users/fetchUsersFailed',
-        payload: isError(error) ? error.message : 'failed fetch users',
+        payload: isError(error) ? error.message : 'failed load resource',
       } as FetchUsersFailedAction);
     }
   };

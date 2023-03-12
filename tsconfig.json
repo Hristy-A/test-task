@@ -18,5 +18,5 @@
     "resolveJsonModule": true,
     "baseUrl": "src"
   },
-  "include": ["src/**/*", "./.eslintrc.js"],
+  "include": ["src/**/*", "./.eslintrc.js", "src/declarations.d.ts"],
 }
